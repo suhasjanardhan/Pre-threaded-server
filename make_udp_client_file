@@ -1,0 +1,15 @@
+# _*_ Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+
+	
+	gcc udp_client_file.c -o udp_client_file
+	
+clean:
+	
+	rm udp_client_file
+
+

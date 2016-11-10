@@ -1,0 +1,13 @@
+# _*_ Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+
+	gcc udp_prethreaded_file_server.c -o udp_prethreaded_file_server -pthread
+	
+	
+clean:
+	rm udp_prethreaded_file_server
+	

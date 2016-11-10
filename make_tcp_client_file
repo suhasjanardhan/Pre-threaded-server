@@ -1,0 +1,14 @@
+# _*_ Makefile _*_
+
+#target: dependencies
+#	action
+
+all: 
+
+	
+	gcc tcp_client_file.c -o tcp_client_file
+	
+clean:
+	
+	rm tcp_client_file
+
